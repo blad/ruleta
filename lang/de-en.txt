@@ -18,3 +18,13 @@ die Mäuse|the mice
 die Maus|the mouse
 die Pferde|the horses
 das Pferd|the horse
+die Luft|the air
+der Himmel|the sky
+die Blumen|the flowers
+die Blume|the flower
+die Bäume|the trees
+das Meer|the sea
+der Mond|the moon
+der Stern|the star
+die Sonne|the sun
+
