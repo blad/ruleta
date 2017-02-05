@@ -1,20 +1,20 @@
-das Öl | the oil
-das Gemüse | the vegetables
-die Schuhe | the shoes
-die Schuh | the shoe
-die Tasche | the bag
-die Tachen | the bags
-der Rocke | the skirt
-die Rocken | the shirts
-der Fleck | the stain
-die Flecken | the stains
-die Jacke | the jacket
-die Jacken | the jackets
-der Mantel | the coat
-die Mäntel | the coats
-das Kleid | the dress
-die Kleider | the dresses
-die Mäuse | the mice
-die Maus | the mouse
-die Pferde | the horses
-das Pferd | the horse
+das Öl|the oil
+das Gemüse|the vegetables
+die Schuhe|the shoes
+die Schuh|the shoe
+die Tasche|the bag
+die Tachen|the bags
+der Rocke|the skirt
+die Rocken|the shirts
+der Fleck|the stain
+die Flecken|the stains
+die Jacke|the jacket
+die Jacken|the jackets
+der Mantel|the coat
+die Mäntel|the coats
+das Kleid|the dress
+die Kleider|the dresses
+die Mäuse|the mice
+die Maus|the mouse
+die Pferde|the horses
+das Pferd|the horse
