@@ -36,8 +36,11 @@ printSecond (x1:x2:_) = putStrLn . unpack $ x2
 
 
 packLines :: String -> [Text]
-packLines = List.map pack . List.lines
+packLines = List.map pack . removeEmpty . List.lines
 
+
+removeEmpty :: [String] -> [String]
+removeEmpty = List.filter (not . List.null)
 
 splitEntries :: [Text] -> [[Text]]
 splitEntries = List.map (splitOn (pack "|"))
