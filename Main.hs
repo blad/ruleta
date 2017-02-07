@@ -1,13 +1,19 @@
 import Control.Applicative
 import Data.List as List
 import Data.Text
-
+import System.Random
 
 main :: IO ()
 main = do
   pairs <- splitEntries . packLines <$> readFile "lang/de-en.txt"
-  mapM_ quiz pairs
+  randomGen <- getStdGen
+  let listLength = List.length pairs
+  let num = randomRs (0 :: Int, listLength - 1) randomGen 
+  let quizIndecies =  List.take quizLength $ List.nub $ List.take (listLength * 3)  num
+  mapM_ quiz $ List.map (pairs !!) quizIndecies
 
+quizLength :: Int
+quizLength = 10 
 
 quiz :: [Text] -> IO ()
 quiz (foreignTerm:englishTerm:_) =
